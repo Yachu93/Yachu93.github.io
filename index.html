@@ -5,19 +5,35 @@
         <title>Софтина</title>
           <link href="styles/panel.css" rel="stylesheet">
           <link href="styles/colorGreen.css" rel="stylesheet">
+          <link href="styles/btn.css" rel="stylesheet">
     </head>
         <body>       
    <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">123</a>
-            <a href="#">234</a>
-            <a href="#">345</a>
+            <a href="#main">Main</a>
+            <a href="#bttn">На кнопку</a>
+            <a href="#hg233">2</a>
+            <a href="https://developer.mozilla.org/ru/">Ссылка</a>
           </div>
             <div id="main">
               <button class="openbtn" onclick="openNav()">&#9776; Something</button>
-                <h2>123</h2>
-                 <p>456</p>
-          </div>
+                <h2>
+                  <a id="h123">123</a>
+                </h2>
+                  <p>456</p>
+                    <div style="position:relative;">
+                      <div style="margin: 1200px 0 10px 0px; display:block;">
+                        <div id="hg233">
+                         <h3>Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+                       </div>
+                    </div>
+                  </div>
+                 </div>
+             <div style="position:relative;">
+               <div style="margin: 2500px 0 10px 800px; display:block;">
+                 <button type="button" onclick="location.href='#main';" id="bttn">Наверх</button>
+               </div> 
+             </div>             
           <script>
 function openNav() 
 {
