@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+  <html>	
+    <head>
+      <meta charset="utf-8">
+        <title>Софтина</title>
+          <link href="styles/panel.css" rel="stylesheet">
+          <link href="styles/colorGreen.css" rel="stylesheet">
+    </head>
+        <body>       
+   <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">123</a>
+            <a href="#">234</a>
+            <a href="#">345</a>
+          </div>
+            <div id="main">
+              <button class="openbtn" onclick="openNav()">&#9776; Something</button>
+                <h2>123</h2>
+                 <p>456</p>
+          </div>
+          <script>
+function openNav() 
+{
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav()
+ {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+} 
+            </script>
+        </body>
+</html> 
